@@ -40,4 +40,4 @@ jobs:
             - name: If PROD, print PROD specific info
               if: ${{ inputs.environment == 'prod' }}
               run: |
-                echo "This is the PROD environment. My variable is ${{ vars.var }}."             
+                echo "This is the PROD environment. My variable is ${{ vars.var }}."
